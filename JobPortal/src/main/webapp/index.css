@@ -1,0 +1,134 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  .head {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .head .left {
+    font-weight: bold;
+  }
+
+  .head .otherpage {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .head .otherpage a {
+    color: #fff;
+    text-decoration: none;
+    margin: 15px;
+  }
+  .head .otherpage a:hover{
+    color: blue;
+  }
+  
+  .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 620px;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(image1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;  
+  }
+  
+  .intro h1 {
+    font-size: 70px;
+    color: rgb(4, 4, 51);
+  }
+  
+  .intro p {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .intro button {
+    background-color:rgb(4, 4, 51);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .intro button:hover{
+    background-color: darkgreen;
+  }
+   .intro div {
+       padding-top: 100px; 
+      max-width: max-content;
+      max-height: max-content;
+  } 
+  .intro div a {
+    max-width: max-content;
+    max-height: max-content;
+    padding: 100px;
+    font-size: 20px;
+    font-weight: 100;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+    
+  }
+  
+  /* Footer styles */
+  .foot {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .foot ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .foot ul li {
+    margin-bottom: 10px;
+  }
+  
+  .foot a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  .foot a:hover{
+    color: blue;
+  }
+  
+  /* Media Queries */
+  @media only screen and (max-width: 768px) {
+    .head {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .head .otherpage {
+      margin-top: 10px;
+      flex-direction: column;
+    }
+    
+    .intro {
+      padding: 30px 0;
+    }
+    
+    .intro h1 {
+      font-size: 24px;
+    }
+    
+    .foot ul li {
+      font-size: 14px;
+    }
+  }
+  

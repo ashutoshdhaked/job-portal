@@ -1,0 +1,135 @@
+/* Overall styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Header styling */
+  .head {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .head b {
+    font-size: 24px;
+  }
+  
+  .otherpage {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .otherpage a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .otherpage a:hover {
+    color: rgb(5, 5, 119);
+  }
+  
+  /* Form styling */
+  .form {
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .form div h2{
+    text-align: center;
+    font: size 30px;
+  }
+  .form div h4{
+    text-align: center;
+    font: size 15px;
+    color: rgb(251, 29, 29);
+  }
+  .par_info, .edu_info, .wor_info, .image, .resumeupload {
+    margin-bottom: 20px;
+  }
+  
+  /* Label styling */
+  .form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form hr{
+    border:2px solid #333;
+  }
+  /* Input field styling */
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="number"],
+  .form input[type="password"],
+  .form input[type="file"],
+  .form select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+  }
+  .image:hover{
+    color: blue;
+  }
+  .resumeupload:hover{
+    color: blue;
+  }
+  .submitbutton{
+    width:fit-content;
+    text-align: center;
+  }
+  .submitbutton input{
+     padding: 10px;
+     font-size: 20px;
+     color: #f8f8f8;
+     background-color: #333;
+     
+  }
+  .submitbutton input:hover {
+    background-color: rgb(4, 4, 74);
+  } 
+  
+  /* Responsive design */
+  @media screen and (max-width: 768px) {
+    .form {
+      margin: 10px;
+    }
+    
+    .form input[type="text"],
+    .form input[type="email"],
+    .form input[type="number"],
+    .form input[type="password"],
+    .form input[type="file"],
+    .form select {
+      font-size: 14px;
+    }
+    
+    .submitbutton input[type="submit"] {
+      font-size: 16px;
+    }
+    
+    .otherpage {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    
+    .otherpage a {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.head {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head .left {
+  font-weight: bold;
+}
+
+.head .otherpage {
+  display: flex;
+  gap: 10px;
+}
+
+.head .otherpage a {
+  color: #fff;
+  text-decoration: none;
+  margin: 15px;
+}
+.head .otherpage a:hover{
+  color: blue;
+}
+/*mainn body */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    width: 350px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    margin-top: 30px;
+  }
+  
+  .input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+  }
+  
+  label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #999;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.3s;
+  }
+  
+  input:focus ~ label,
+  input:valid ~ label {
+    top: -10px;
+    font-size: 12px;
+    color: #333;
+  }
+  
+  .forgot-password {
+    margin-top: 20px;
+    text-align: right;
+  }
+  .errormessage span{
+    color: darkred;
+    text-align: center;
+  }
+  a {
+    color: rgb(4, 4, 51);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .forgot-password :hover{
+    color: rgb(163, 1, 1);
+  }
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #555;
+  }
+  
+  .social-login {
+    margin-top: 20px;
+  }
+  
+  .social-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+  }  
+  .social-btn:hover{
+    color: rgb(5, 5, 115);
+  }

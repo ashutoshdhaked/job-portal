@@ -1,0 +1,119 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* CSS code for the table */
+main{
+  margin-top: 150px;
+  
+  }
+  table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    
+    th {
+        text-align: center;
+      background-color: #615d5d;
+      color: #fff;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    
+    tr, td {
+      border: 1px solid #ccc;
+    }
+    
+    /* CSS for hover animation */
+    tr:hover {
+      border: 1.5px solid #333;
+    }
+    
+    
+    /* Responsive design */
+    @media screen and (max-width: 768px) {
+      table {
+        font-size: 14px;
+      }
+      .header h1 {
+          font-size: 10px;
+      }
+      .links a {
+          margin-left: 10px;
+      }
+      .profile{
+          margin-left: 20px;
+      }
+    }
+    
+    @media screen and (max-width: 576px) {
+      table {
+        font-size: 12px;
+      }
+      .header h1 {
+          font-size: 7px;
+      }
+      .links a {
+          margin-left: 8px;
+      }
+      .profile{
+          margin-left: 10px;
+      }
+    }
+
+/* CSS code for the header */
+.header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background-color: #333;
+    }
+    
+    .back-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+    
+    .back-button i {
+      font-size: 30px;
+    }
+    
+    .back-button i:hover{
+      color: #0b0355;
+    }
+
+    h2 {
+      text-align: center;
+      color: #fff;
+      font-size: 24px;
+    }
+    
+    /* Media Queries for responsiveness */
+    @media (max-width: 768px) {
+      .header {
+        flex-direction: column;
+        padding: 10px;
+      }
+    }
+
+  

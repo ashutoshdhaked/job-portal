@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .head {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .head .left {
+    font-weight: bold;
+  }
+  
+  .head .back-button {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  .head .otherpage {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .head .otherpage a {
+    color: #fff;
+    text-decoration: none;
+    margin: 15px;
+  }
+  .head .otherpage a:hover{
+    color: blue;
+  }
+  /* code for main tag */
+  
+.about-us {
+  padding: 30px;
+}
+
+.about-us h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  margin-bottom: 10px;
+}
+
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 15rem;
+  margin-bottom: 1rem;
+}
+
+.card-img-top {
+  width: 80%;
+  height: 200px; /* Adjust the desired height of the image */
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 50%; /* Adjust the width of each card for smaller screens */
+  }
+}
